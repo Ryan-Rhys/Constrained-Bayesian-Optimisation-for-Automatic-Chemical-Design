@@ -1,0 +1,20 @@
+
+1. BEST DETERMINISTIC AE
+    From Spearmit search
+
+/n/aagfs01/samsung/autoencoder/theano_tests/Fifth-Deterministic_rndm_and_sprmnt/Bayesian/slurm-63535286.out
+/n/aagfs01/samsung/autoencoder/theano_tests/Fifth-Deterministic_rndm_and_sprmnt/Bayesian/model_224.json
+/n/aagfs01/samsung/autoencoder/theano_tests/Fifth-Deterministic_rndm_and_sprmnt/Bayesian/weights_224.h5
+
+
+2. BEST VARIATIONAL AE
+    From Spearmit search
+    The version of keras used has regularizer_scale multiplying the std in the gaussian sampling.
+    Setting regularizer scale to 0 will sample only the mean. The vae was trained that way initially.
+    Kept in here are
+
+/n/home05/rgbombarelli/a2g2_ml/ml/autoencoder/spearmint_variational_autoencoder/round_6_stdreg_scale/slurm-64445665
+/n/home05/rgbombarelli/a2g2_ml/ml/autoencoder/spearmint_variational_autoencoder/round_6_stdreg_scale/model_404.json
+/n/home05/rgbombarelli/a2g2_ml/ml/autoencoder/spearmint_variational_autoencoder/round_6_stdreg_scale/weights_404.h5
+
+
