@@ -17,6 +17,8 @@ and adding
 PYTHONPATH="${PYTHONPATH}:/Users/path_to_directory/Constrained-Bayesian-Optimisation_for_Automatic_Chemical_Design"
 export PYTHONPATH
 
+source ~/.bashrc
+
 It is recommended that you install dependencies within a virtual environment. For example, using conda you would run,
 from the Constrained_BO_package directory, the commands:
 
