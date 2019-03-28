@@ -14,11 +14,17 @@ vim ~/.bashrc
 
 and adding
 
-PYTHONPATH="${PYTHONPATH}:/Users/path_to_directory/Constrained_BO_package"
+PYTHONPATH="${PYTHONPATH}:/Users/path_to_directory/Constrained-Bayesian-Optimisation_for_Automatic_Chemical_Design"
 export PYTHONPATH
+
+source ~/.bashrc
 
 It is recommended that you install dependencies within a virtual environment. For example, using conda you would run,
 from the Constrained_BO_package directory, the commands:
+
+conda config --add channels conda-forge
+
+(to add conda-forge to existing channels)
 
 conda create -n env_name --file package-list.txt
 
@@ -35,7 +41,9 @@ cd ..
 conda install numpy==1.13.0
 
 pip install git+https://github.com/rgbombarelli/keras.git#egg=Keras
+
 pip install git+https://github.com/rgbombarelli/seya.git#egg=seya
+
 pip install git+https://github.com/HIPS/autograd.git#egg=autograd
 
 USAGE
