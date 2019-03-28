@@ -39,7 +39,9 @@ cd ..
 conda install numpy==1.13.0
 
 pip install git+https://github.com/rgbombarelli/keras.git#egg=Keras
+
 pip install git+https://github.com/rgbombarelli/seya.git#egg=seya
+
 pip install git+https://github.com/HIPS/autograd.git#egg=autograd
 
 USAGE
