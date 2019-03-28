@@ -1,0 +1,11 @@
+1_Uncon_Chem_Old:
+
+Unconstrained implementation for the same objective functions.
+
+2_Con_Chem_Old:
+
+Constrained implementation for the three objective functions corresponding to:
+
+1) logP + SA + ring-penalty
+2) QED + SA + ring-penalty
+3) QED

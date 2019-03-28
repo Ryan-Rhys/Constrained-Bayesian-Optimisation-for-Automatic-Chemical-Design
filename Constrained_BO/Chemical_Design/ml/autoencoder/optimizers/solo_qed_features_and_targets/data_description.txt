@@ -1,0 +1,8 @@
+Tuesday 9th January 14:54
+
+The objective for the values here is just the QED.
+
+targets.txt contain the normalised qed values.
+
+According to the 2012 Bickerton paper on QED, scores range from 0 (all properties unfavourable) to 1 (all properties favourable).
+It is also possible to change the weights in the function.
