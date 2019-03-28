@@ -20,6 +20,10 @@ export PYTHONPATH
 It is recommended that you install dependencies within a virtual environment. For example, using conda you would run,
 from the Constrained_BO_package directory, the commands:
 
+conda config --add channels conda-forge
+
+(to add conda-forge to existing channels)
+
 conda create -n env_name --file package-list.txt
 
 source activate env_name
