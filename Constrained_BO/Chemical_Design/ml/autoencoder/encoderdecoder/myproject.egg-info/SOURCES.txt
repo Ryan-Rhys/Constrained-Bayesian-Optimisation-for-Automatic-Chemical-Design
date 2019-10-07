@@ -1,4 +1,0 @@
-myproject.egg-info/PKG-INFO
-myproject.egg-info/SOURCES.txt
-myproject.egg-info/dependency_links.txt
-myproject.egg-info/top_level.txt
