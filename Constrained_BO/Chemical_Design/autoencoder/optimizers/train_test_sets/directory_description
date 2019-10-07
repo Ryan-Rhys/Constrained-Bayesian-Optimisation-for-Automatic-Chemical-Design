@@ -1,0 +1,3 @@
+This directory contains the data generated to train the binary classification neural network.
+
+The script make_training_data.py can be used to generate this data.
