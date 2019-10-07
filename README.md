@@ -73,3 +73,4 @@ c) bo_gp_solo_qed -> QED
 
 The Initialisation directory contains code to generate training data for the binary classification neural network in 
 the scripts Pos_Gen.py and Neg_Gen.py.
+
