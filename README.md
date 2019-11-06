@@ -12,7 +12,7 @@ https://github.com/aspuru-guzik-group/chemical_vae
 
 Append the package directory location to your PYTHONPATH e.g. by editing the .bashrc file as follows:
 
-vim ~/.bashrc
+'''vim ~/.bashrc'''
 
 and adding
 
