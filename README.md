@@ -46,7 +46,8 @@ pip install git+https://github.com/rgbombarelli/keras.git#egg=Keras
 
 pip install git+https://github.com/rgbombarelli/seya.git#egg=seya
 
-pip install git+https://github.com/HIPS/autograd.git#egg=autograd```
+pip install git+https://github.com/HIPS/autograd.git#egg=autograd
+```
 
 ## USAGE
 
