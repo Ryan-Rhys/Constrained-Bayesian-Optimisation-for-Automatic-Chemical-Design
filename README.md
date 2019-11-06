@@ -78,3 +78,15 @@ c) bo_gp_solo_qed -> QED
 The Initialisation directory contains code to generate training data for the binary classification neural network in 
 the scripts Pos_Gen.py and Neg_Gen.py.
 
+## Citing Constrained Bayesian Optimisation for Automatic Chemical Design
+
+Sample Bibtex is given below:
+
+```
+@article{Constrained {B}ayesian optimization for automatic chemical design,
+  title={Constrained {B}ayesian optimization for automatic chemical design},
+  author={Griffiths, Ryan-Rhys and Hern{\'a}ndez-Lobato, Jos{\'e} Miguel},
+  journal={arXiv preprint arXiv:1709.05501},
+  year={2017}
+}
+```
