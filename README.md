@@ -1,3 +1,5 @@
+# Constrained Bayesian Optimisation for Automatic Chemical Design using Variational Autoencoders
+
 Welcome to the code accompanying the paper "Constrained Bayesian Optimisation for Automatic Chemical Design"
 
 https://arxiv.org/abs/1709.05501
@@ -6,7 +8,7 @@ The code is based heavily on the implementation of the Aspuru-Guzik group:
 
 https://github.com/aspuru-guzik-group/chemical_vae
 
-INSTALL
+## INSTALL
 
 Append the package directory location to your PYTHONPATH e.g. by editing the .bashrc file as follows:
 
@@ -46,7 +48,7 @@ pip install git+https://github.com/rgbombarelli/seya.git#egg=seya
 
 pip install git+https://github.com/HIPS/autograd.git#egg=autograd
 
-USAGE
+## USAGE
 
 The scripts
 
