@@ -17,14 +17,16 @@ Append the package directory location to your PYTHONPATH e.g. by editing the .ba
 and adding
 
 ```PYTHONPATH="${PYTHONPATH}:/Users/path_to_directory/Constrained-Bayesian-Optimisation_for_Automatic_Chemical_Design"
-export PYTHONPATH```
+export PYTHONPATH
 
-```source ~/.bashrc```
+source ~/.bashrc
+```
 
 It is recommended that you install dependencies within a virtual environment. For example, using conda you would run,
 from the Constrained_BO_package directory, the commands:
 
-```conda config --add channels conda-forge```
+```conda config --add channels conda-forge
+```
 
 (to add conda-forge to existing channels)
 
