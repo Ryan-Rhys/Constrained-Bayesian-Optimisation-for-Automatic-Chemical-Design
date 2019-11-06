@@ -25,8 +25,7 @@ source ~/.bashrc
 It is recommended that you install dependencies within a virtual environment. For example, using conda you would run,
 from the Constrained_BO_package directory, the commands:
 
-```conda config --add channels conda-forge
-```
+```conda config --add channels conda-forge```
 
 (to add conda-forge to existing channels)
 
