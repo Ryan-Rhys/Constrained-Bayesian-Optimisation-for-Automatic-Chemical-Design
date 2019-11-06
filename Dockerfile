@@ -1,5 +1,5 @@
 # Base image:
-FROM python:2.7.0
+FROM PYTHON:2.7
 
 MAINTAINER Ryan-Rhys Griffiths
 
