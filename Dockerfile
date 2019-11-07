@@ -1,17 +1,11 @@
 # Base image:
-FROM PYTHON:2.7
+FROM continuumio/miniconda2
 
 MAINTAINER Ryan-Rhys Griffiths
 
-RUN git clone https://github.com/Ryan-Rhys/Constrained-Bayesian-Optimisation-for-Automatic-Chemical-Design.git
+RUN conda config --add channels conda-forge
 
 RUN conda install rdkit==2017.09.03
-
-RUN cd theano-master
-
-RUN python setup.py install
-
-RUN cd ..
 
 RUN conda install numpy==1.13.0
 
