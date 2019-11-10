@@ -25,10 +25,10 @@ np.random.seed(1)
 
 # Classification data
 
-X_tr_pos_con = load_object('../train_test_sets/P_173000_Samples/173000_Pos_X_con_tr_20.dat')
-X_tr_neg_con = load_object('../train_test_sets/N_130000_Samples/130000_Neg_X_con_tr_20.dat')
-y_tr_pos_con = load_object('../train_test_sets/P_173000_Samples/173000_Pos_y_con_tr_20.dat')
-y_tr_neg_con = load_object('../train_test_sets/N_130000_Samples/130000_Neg_y_con_tr_20.dat')
+X_tr_pos_con = load_object('../train_test_sets/Train_Samples/Positive_Latents/X_con_tr_pos20.dat')
+X_tr_neg_con = load_object('../train_test_sets/Train_Samples/Negative_Latents/X_con_tr_neg20.dat')
+y_tr_pos_con = load_object('../train_test_sets/Train_Samples/Positive_Latents/y_con_tr_pos20.dat')
+y_tr_neg_con = load_object('../train_test_sets/Train_Samples/Negative_Latents/y_con_tr_neg20.dat')
 
 # Balance the number of samples from each class 
 
