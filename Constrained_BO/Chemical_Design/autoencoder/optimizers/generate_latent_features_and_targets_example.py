@@ -83,6 +83,10 @@ for i in range(len(smiles_one_hot_encoding)):
 
 latent_points = np.array(latent_points)
 np.savetxt('latent_features_and_targets/latent_faetures.txt', latent_points)
+
+# The following line needs to be executed in order to generate the constraint data using the make_training_data.py script.
+
+np.savetxt('Collated_Data/latent_faetures.txt', latent_points)
 targets = SA_scores_normalized + logP_values_normalized + cycle_scores_normalized
 np.savetxt('latent_features_and_targets/targets.txt', targets)
 np.savetxt('latent_features_and_targets/logP_values.txt', np.array(logP_values))
