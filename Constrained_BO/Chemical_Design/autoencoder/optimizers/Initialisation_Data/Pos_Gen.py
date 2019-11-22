@@ -114,20 +114,24 @@ for i in range(X_train.shape[0]):
     print(i)
     
 # We save the labels
+# See the directory Collated_Data/Data_Lexicon for a mapping between the training set indices and the directory number
+# e.g. the directory number P19 corresponds to indices 168000-173000.
+# The script make_training_data.py expects to see the directories in the P1 through P19 format.
+# Create new directories P1, P2, ..., P18 in the Collated_Data folder as required
 
-save_object(num_sensible_per_point, "29_July_Pos_Class_168000_173000/num_sensible_per_point.dat")
-save_object(valid_smiles_final, "29_July_Pos_Class_168000_173000/valid_smiles.dat")
-save_object(all_smiles_final, "29_July_Pos_Class_168000_173000/all_smiles.dat")
+save_object(num_sensible_per_point, "Collated_Data/P19/num_sensible_per_point.dat")
+save_object(valid_smiles_final, "Collated_Data/P19/valid_smiles.dat")
+save_object(all_smiles_final, "Collated_Data/P19/all_smiles.dat")
 
-save_object(y_con_5, "29_July_Pos_Class_168000_173000/y_con_5.dat")
-save_object(y_con_10, "29_July_Pos_Class_168000_173000/y_con_10.dat")
-save_object(y_con_20, "29_July_Pos_Class_168000_173000/y_con_20.dat")
-save_object(y_con_30, "29_July_Pos_Class_168000_173000/y_con_30.dat")
-save_object(y_con_40, "29_July_Pos_Class_168000_173000/y_con_40.dat")
-save_object(y_con_50, "29_July_Pos_Class_168000_173000/y_con_50.dat")
-save_object(y_con_60, "29_July_Pos_Class_168000_173000/y_con_60.dat")
-save_object(y_con_70, "29_July_Pos_Class_168000_173000/y_con_70.dat")
-save_object(y_con_80, "29_July_Pos_Class_168000_173000/y_con_80.dat")
-save_object(y_con_90, "29_July_Pos_Class_168000_173000/y_con_90.dat")
+save_object(y_con_5, "Collated_Data/P19/y_con_5.dat")
+save_object(y_con_10, "Collated_Data/P19/y_con_10.dat")
+save_object(y_con_20, "Collated_Data/P19/y_con_20.dat")
+save_object(y_con_30, "Collated_Data/P19/y_con_30.dat")
+save_object(y_con_40, "Collated_Data/P19/y_con_40.dat")
+save_object(y_con_50, "Collated_Data/P19/y_con_50.dat")
+save_object(y_con_60, "Collated_Data/P19/y_con_60.dat")
+save_object(y_con_70, "Collated_Data/P19/y_con_70.dat")
+save_object(y_con_80, "Collated_Data/P19/y_con_80.dat")
+save_object(y_con_90, "Collated_Data/P19/y_con_90.dat")
 
 print(datetime.now() - startTime)

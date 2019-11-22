@@ -6,10 +6,10 @@ from datetime import datetime
 import numpy as np
 
 from Constrained_BO.Chemical_Design.autoencoder.latent_space import encode_decode as lasp
-from Constrained_BO.utils import load_object, save_object
+from Constrained_BO.utils import save_object
 
 # 19_July_Train_Data_Limits is randomly sampled data from the latent space where the bounds are given
-# by the lowest and highest value for eachd dimension.
+# by the lowest and highest value for each dimension.
 
 X_sample = np.loadtxt('19_July_Train_Data_Limits/X_sampled.txt')
 
@@ -61,7 +61,7 @@ startTime = datetime.now()
 
 for i in range(X_batch.shape[0]):
 
-    sampler_out = postprocessor.ls_to_smiles([ X_batch[i: (i + 1), :]], decode_attempts, decode_attempts,)
+    sampler_out = postprocessor.ls_to_smiles([X_batch[i: (i + 1), :]], decode_attempts, decode_attempts,)
     rdmols, valid_smiles, all_smiles, output_reps, distances = sampler_out
 
     valid_long_smiles = [x for x in valid_smiles if len(x) > 5]
@@ -115,20 +115,24 @@ for i in range(X_batch.shape[0]):
     print(i)
 
 # We save the labels
+# See the directory Collated_Data/Data_Lexicon for a mapping between the training set indices and the directory number
+# e.g. the directory number N10 corresponds to indices 83000-91000.
+# The script make_training_data.py expects to see the directories in the P1 through P19 format.
+# Create new directories N1, N2, ..., N14 in the Collated_Data folder as required
 
-save_object(num_sensible_per_point, "25_July_Neg_Class_83000_91000/num_sensible_per_point.dat")
-save_object(valid_smiles_final, "25_July_Neg_Class_83000_91000/valid_smiles.dat")
-save_object(all_smiles_final, "25_July_Neg_Class_83000_91000/all_smiles.dat")
+save_object(num_sensible_per_point, "Collated_Data/N10/num_sensible_per_point.dat")
+save_object(valid_smiles_final, "Collated_Data/N10/valid_smiles.dat")
+save_object(all_smiles_final, "Collated_Data/N10/all_smiles.dat")
 
-save_object(y_con_5, "25_July_Neg_Class_83000_91000/y_con_5.dat")
-save_object(y_con_10, "25_July_Neg_Class_83000_91000/y_con_10.dat")
-save_object(y_con_20, "25_July_Neg_Class_83000_91000/y_con_20.dat")
-save_object(y_con_30, "25_July_Neg_Class_83000_91000/y_con_30.dat")
-save_object(y_con_40, "25_July_Neg_Class_83000_91000/y_con_40.dat")
-save_object(y_con_50, "25_July_Neg_Class_83000_91000/y_con_50.dat")
-save_object(y_con_60, "25_July_Neg_Class_83000_91000/y_con_60.dat")
-save_object(y_con_70, "25_July_Neg_Class_83000_91000/y_con_70.dat")
-save_object(y_con_80, "25_July_Neg_Class_83000_91000/y_con_80.dat")
-save_object(y_con_90, "25_July_Neg_Class_83000_91000/y_con_90.dat")
+save_object(y_con_5, "Collated_Data/N10/y_con_5.dat")
+save_object(y_con_10, "Collated_Data/N10/y_con_10.dat")
+save_object(y_con_20, "Collated_Data/N10/y_con_20.dat")
+save_object(y_con_30, "Collated_Data/N10/y_con_30.dat")
+save_object(y_con_40, "Collated_Data/N10/y_con_40.dat")
+save_object(y_con_50, "Collated_Data/N10/y_con_50.dat")
+save_object(y_con_60, "Collated_Data/N10/y_con_60.dat")
+save_object(y_con_70, "Collated_Data/N10/y_con_70.dat")
+save_object(y_con_80, "Collated_Data/N10/y_con_80.dat")
+save_object(y_con_90, "Collated_Data/N10/y_con_90.dat")
 
 print(datetime.now() - startTime)
