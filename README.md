@@ -1,8 +1,8 @@
 # Constrained Bayesian Optimisation for Automatic Chemical Design using Variational Autoencoders
 
-Welcome to the code accompanying the paper "Constrained Bayesian Optimisation for Automatic Chemical Design"
+Welcome to the code accompanying the paper "Constrained Bayesian Optimisation for Automatic Chemical Design using Variational Autoencoders"
 
-https://arxiv.org/abs/1709.05501
+https://pubs.rsc.org/en/content/articlehtml/2019/sc/c9sc04026a
 
 The code is based heavily on the implementation of the Aspuru-Guzik group:
 
