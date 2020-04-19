@@ -1,4 +1,10 @@
-Welcome to the code accompanying the paper "Constrained Bayesian Optimisation for Automatic Chemical Design"
+# Constrained Bayesian Optimisation for Automatic Chemical Design using Variational Autoencoders
+
+Welcome to the repo accompanying the paper "Constrained Bayesian Optimisation for Automatic Chemical Design usingg Variational Autoencoders"
+
+https://pubs.rsc.org/en/content/articlehtml/2020/sc/c9sc04026a
+
+and
 
 https://arxiv.org/abs/1709.05501
 
