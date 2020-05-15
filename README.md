@@ -84,10 +84,11 @@ the data.
 Sample Bibtex is given below:
 
 ```
-@article{Constrained {B}ayesian optimization for automatic chemical design,
-  title={Constrained {B}ayesian optimization for automatic chemical design},
+@article{griffiths2020constrained,
+  title={Constrained Bayesian optimization for automatic chemical design using variational autoencoders},
   author={Griffiths, Ryan-Rhys and Hern{\'a}ndez-Lobato, Jos{\'e} Miguel},
-  journal={arXiv preprint arXiv:1709.05501},
-  year={2017}
+  journal={Chemical Science},
+  year={2020},
+  publisher={Royal Society of Chemistry}
 }
 ```
