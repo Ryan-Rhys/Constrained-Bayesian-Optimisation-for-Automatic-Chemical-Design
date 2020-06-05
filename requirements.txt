@@ -13,7 +13,7 @@ cryptography==2.0.3
 cycler==0.10.0
 decorator==4.0.11
 dill==0.2.7.1
-Django==1.11.2
+Django==1.11.29
 docutils==0.14
 enum34==1.1.6
 functools32==3.2.3.post2
