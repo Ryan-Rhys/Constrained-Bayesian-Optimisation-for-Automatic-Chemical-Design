@@ -9,7 +9,7 @@ backports.ssl-match-hostname==3.5.0.1
 certifi==2017.4.17
 cffi==1.10.0
 chardet==3.0.4
-cryptography==2.0.3
+cryptography==3.2
 cycler==0.10.0
 decorator==4.0.11
 dill==0.2.7.1
