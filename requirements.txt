@@ -36,7 +36,7 @@ MolVS==0.0.9
 networkx==1.11
 neuralfingerprint==1.0.0
 nose==1.3.7
-numpy==1.13.0
+numpy==1.22.0
 olefile==0.44
 pandas==0.20.1
 pathlib2==2.2.1
