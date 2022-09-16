@@ -29,7 +29,7 @@ ipython-genutils==0.2.0
 Jinja2==2.9.6
 joblib==0.11
 Keras==0.3.2
-Mako==1.0.6
+Mako==1.2.2
 MarkupSafe==0.23
 matplotlib==2.0.2
 MolVS==0.0.9
